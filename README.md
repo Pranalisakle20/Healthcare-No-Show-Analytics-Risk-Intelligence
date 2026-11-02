@@ -118,12 +118,10 @@ The SQL implementation (`sql/healthcare_queries.sql` and `sql/healthcare.db`) mo
 
 ### 1. Environment Setup
 ```bash
-git clone https://github.com/Pranalisakle20/Healthcare-NoShow-Analytics-Risk-Intelligence.git
-cd Healthcare-NoShow-Analytics-Risk-Intelligence
+git clone https://github.com/Pranalisakle20/Healthcare-No-Show-Analytics-Risk-Intelligence.git
+cd Healthcare-No-Show-Analytics-Risk-Intelligence
 pip install pandas numpy scikit-learn joblib matplotlib seaborn
 ```
-*(Remember to replace `<your-username>` with your GitHub username when sharing the clone command).*
-
 ### 2. Run the Python Pipeline
 ```bash
 python src/healthcare_pipeline.py data/sample_cleaned_appointments.csv
