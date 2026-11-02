@@ -128,9 +128,9 @@ python src/healthcare_pipeline.py data/sample_cleaned_appointments.csv
 ```
 
 ### 3. Inspect Interactive Notebook & SQL
-* Open `Healthcare_Analytics_Pipeline.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
-* Connect to `sql/healthcare.db` using SQLite CLI, DB Browser for SQLite, or execute `sql/healthcare_queries.sql`.
+- Open `Healthcare_Analytics_Pipeline.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
+- Connect to `sql/healthcare.db` using SQLite CLI, DB Browser for SQLite, or execute `sql/healthcare_queries.sql`.
 
 ### 4. Open Power BI Dashboard
-* Launch **Power BI Desktop**.
-* Open `powerbi/healthcare_dashboard.pbix` to interact with slicers (`Gender`, `Age Group`, `Neighbourhood`) and drill into risk tiers.
+- Launch Power BI Desktop.
+- Open `powerbi/Healthcare_Appointment_&_AI_Risk_Intelligence_dashboard.pbix` to interact with slicers (Gender, Age Group, Neighbourhood) and drill into risk tiers.
